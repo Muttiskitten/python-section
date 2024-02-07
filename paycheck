@@ -1,0 +1,8 @@
+import math
+
+hourly_wage = float(input("hourly wage?: "))
+hours_worked = float(input("hours worked?: "))
+tax_deducted = float(input("tax deducted?: "))
+
+tax = hourly_wage * hours_worked * (tax_deducted / 100)
+print(hourly_wage * hours_worked - tax)
